@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'bootstrap-sass', '2.3.2.0'
+gem 'devise'
 gem 'sprockets', '2.11.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
