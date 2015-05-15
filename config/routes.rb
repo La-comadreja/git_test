@@ -1,4 +1,20 @@
 Rails.application.routes.draw do
+  resources :topics
+
+  get 'topics/index'
+
+  get 'topics/show'
+
+  get 'topics/new'
+
+  get 'topics/edit'
+
+  get 'topics/create'
+
+  get 'topics/update'
+
+  get 'topics/destroy'
+
   get 'welcome/index'
 
   # The priority is based upon order of creation: first created -> highest priority.
